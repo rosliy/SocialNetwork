@@ -15,6 +15,8 @@ const Avatar = () => {
                     followers
                 </div>
 
+
+
             </div>
         </div>
     );
