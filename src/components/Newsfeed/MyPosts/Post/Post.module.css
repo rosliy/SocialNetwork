@@ -1,0 +1,45 @@
+.postImage {
+    max-height: 400px;
+    overflow: hidden;
+
+}
+.postImage img{
+    
+width: 100%;
+
+}
+
+.postItem { 
+    display: flex;
+    padding: 20px;
+
+    align-items: stretch;
+
+}
+.forava {
+    width: 100px;
+}
+.desc {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.ava {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:#6099bf;
+    margin: auto auto;
+    
+}
+
+.name {
+    color: #6099bf;
+}
+
+.item {
+    
+}

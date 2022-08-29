@@ -1,0 +1,40 @@
+.avatar {
+    grid-area: avatar; 
+
+    background-color: #1c6aa4;
+    border-radius: 5px;
+    background-image: 
+    linear-gradient(to right, rgba(30, 113, 169, .7), rgba(30, 113, 169, .7)),
+    url(https://img3.goodfon.ru/wallpaper/nbig/8/7d/priroda-les-tuman-krasota.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+}
+.ava {
+    width: 30%;
+}
+
+.ava img{
+    position: absolute;
+    top: -15%;
+    left: 10%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: #fff 5px solid;
+}
+.about {
+    width: 70%;
+    color: #fff;
+    margin-left: 100px;
+    margin: auto 5px auto 100px;
+}
+.name {
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.followers {
+    font-size: 12px;
+}

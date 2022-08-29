@@ -1,0 +1,66 @@
+.wrapper {
+    display: flex;
+    height: 100px;
+   
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+
+}
+
+.wrapper label img{
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+.wrapper a img{
+    height: 30px;
+    margin: 10px;
+}
+
+.wrapper input[type='file'] {
+    display: none;
+}
+
+.add { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn {
+    margin-left: 10px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    background-color: #27aae1;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+
+
+.item {
+    color: green;
+    font-family: 'Lato', sans-serif;
+    line-height: 26px;
+    font-size: 13px;
+}
+.ava {
+}
+
+.ava img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: #fff 5px solid;
+    margin-right: 15px;
+}
+
+textarea {
+    color: grey;
+    outline: none;
+    border: 1px solid#dedede;
+    border-radius: 3px;
+    padding: 10px 15px;
+}

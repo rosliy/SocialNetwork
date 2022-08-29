@@ -1,0 +1,8 @@
+.item {
+    color: green;
+}
+.myPosts {
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+}

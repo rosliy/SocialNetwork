@@ -1,0 +1,15 @@
+.header {
+    grid-area: header;
+    color: white;
+    background-color: #231f20;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    }
+
+    .header img {
+        height: 40px;
+        
+    }

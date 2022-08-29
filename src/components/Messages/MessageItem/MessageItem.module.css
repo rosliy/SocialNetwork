@@ -1,0 +1,70 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    grid-template-areas: 
+
+    "d m"
+}
+.dialogs a{
+    text-decoration: none;
+}
+
+
+
+.dialogsItems {
+    grid-area: d;
+    padding: 10px;
+
+}
+.dialogsItem .active {
+    color: gold;
+}
+
+.dialog {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f7f8f8;
+}
+
+.dialog img{
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.desc {
+    padding-left: 10px;
+    width: 200px;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.name {
+    color: #6099bf;
+}
+.online{
+    font-size: 12px;
+    color: grey;
+}
+
+.lastMessage {
+    padding-top: 10px;
+    color: grey;
+}
+
+.messages {
+    grid-area: m;
+    padding: 10px;
+}
+
+.message img{
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+

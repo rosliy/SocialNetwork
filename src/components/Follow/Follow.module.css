@@ -1,0 +1,8 @@
+.avatar {
+    grid-area: follow; 
+}
+
+.follow {
+    color: #a8807d;
+    text-align: center;
+}

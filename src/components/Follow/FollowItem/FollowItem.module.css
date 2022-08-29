@@ -1,0 +1,22 @@
+.followItem {
+    display: flex;
+    margin: 10px 0;
+    padding: 10px 0;
+    
+}
+
+
+.ava {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:#6099bf;
+    margin-right: 10px;
+}
+
+.desc {
+    border-bottom: 1px solid #f7f8f8;
+}
+.name {
+color: #8dc63f;
+}
