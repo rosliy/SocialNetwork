@@ -1,3 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+.userCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin: 20px 0;
+    border-top: solid 1px grey ;
+    border-bottom: solid 1px grey ;
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.info img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 30px;
+}
 
+.name {
+color:#6099bf;
+margin-bottom: 7px;
+}
+.profession {
+    margin-bottom: 10px;
 
-
+}

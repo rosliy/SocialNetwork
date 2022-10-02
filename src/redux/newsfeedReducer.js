@@ -12,20 +12,27 @@ let initialState = {
 
 
 const newsfeedReducer = (state = initialState, action) => {
+
     switch (action.type) {
+
         case ADD_POST:
             let newPost = {
                 url: 'https://fs.tonkosti.ru/12/3x/123xdouxq300o0gww0cs0kgow.jpg',
                 message: state.newPostText,
                 likeCount: 0,
             };
-            state.postsData.push(newPost);
-            state.newPostText = '';
-            return state;
+            return {
+                    ...state,
+                    postsData: [...state.postsData, newPost],
+                    newPostText: '',
+                };
+            
 
         case UPDATE_NEW_POST_TEXT:
-            state.newPostText = action.newText;
-            return state;
+            return {
+                ...state,
+                newPostText: action.newText,
+            }
 
         default:
             return state;

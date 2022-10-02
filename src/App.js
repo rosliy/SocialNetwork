@@ -12,7 +12,7 @@ import MessagesContainer from './components/Messages/MessagesContainer'
 import Images from './components/Images/Images'
 import Videos from './components/Videos/Videos'
 import Friends from './components/Friends/Friends'
-import People from './components/People/People'
+import PeopleContainer from './components/People/PeopleContainer';
 import Music from './components/Music/Music'
 import Footer from './components/Footer/Footer'
 
@@ -23,40 +23,39 @@ import { Routes, Route } from 'react-router-dom';
 
 
 
+
 const App = () => {
   return (
-      <div className='app-wrapper'>
-        <Header />
+    <div className='app-wrapper'>
+      <Header />
 
-        <Navbar />
+      <Navbar />
 
-        <div className='app-wrapper-content'>
-          <Routes>
-            <Route path='/newsfeed'
-              element={<Newsfeed />}
-            />
-            <Route path='/people' element={<People />} />
+      <div className='app-wrapper-content'>
+        <Routes>
+          <Route path='/newsfeed' element={<Newsfeed />}
+          />
+          <Route path='/people' element={<PeopleContainer />} />
 
-            <Route path='/dialogs/*'
-              element={<MessagesContainer />} />
+          <Route path='/dialogs/*' element={<MessagesContainer />} />
 
-            <Route path='/Friends' element={<Friends />} />
-            <Route path='/music' element={<Music />} />
-            <Route path='/images' element={<Images />} />
-            <Route path='/videos' element={<Videos />} />
-          </Routes>
+          <Route path='/Friends' element={<Friends />} />
+          <Route path='/music' element={<Music />} />
+          <Route path='/images' element={<Images />} />
+          <Route path='/videos' element={<Videos />} />
+        </Routes>
 
-        </div>
-
-
-        <Avatar />
-
-        <ChatOnline />
-
-        <Follow />
-
-        <Footer />
       </div>
+
+
+      <Avatar />
+
+      <ChatOnline />
+
+      <Follow />
+
+      <Footer />
+    </div>
   );
 }
 

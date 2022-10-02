@@ -1,6 +1,7 @@
 import React from "react";
 import { addPostActionCreator, updateNewPostTextActionCreator } from '../../../redux/newsfeedReducer';
 import { connect } from 'react-redux';
+import AddPost from './AddPost';
 
 
 
