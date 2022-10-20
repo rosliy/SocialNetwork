@@ -33,8 +33,8 @@ const App = () => {
 
       <div className='app-wrapper-content'>
         <Routes>
-          <Route path='/newsfeed' element={<Newsfeed />}
-          />
+          <Route path='/newsfeed' element={<Newsfeed />} />
+          
           <Route path='/people' element={<PeopleContainer />} />
 
           <Route path='/dialogs/*' element={<MessagesContainer />} />
